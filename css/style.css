@@ -11,7 +11,7 @@ body {
 
 .top-bar-social-links {
     display: flex;
-    gap: 25px;  /* Space out the social icons */
+    gap: 25px;  
   }
   
   .social-icon {
@@ -21,7 +21,7 @@ body {
   }
   
   .social-icon:hover {
-    color: #007bff;  /* Change color on hover */
+    color: #007bff; 
   }
 
   .top-bar-menu nav ul li {
@@ -261,8 +261,7 @@ body {
 .mission-col{
   border: 2px solid white;
   background-color: white;
-  /* padding: 60px; */
-  /* text-align: center; */
+
   width: 652px;
   height: 417px;
   align-items: center;
@@ -298,8 +297,8 @@ body {
   background: url(../assets/images/img4.jpeg) no-repeat center center;
   background-size: cover;
   z-index: 1;
-  width: 100%; /* Responsive width */
-  padding: 3rem 1rem; /* Mobile padding */
+  width: 100%; 
+  padding: 3rem 1rem;
 }
 
 .hour-cont::before {
@@ -461,7 +460,6 @@ body {
   color: #6EB43E;
 }
 
-/* Announcement Section */
 .footer-announcement {
   background-color: #457426FA;
   padding: 20px 40px;
@@ -498,7 +496,7 @@ body {
   background-color: #222;
 }
 
-/* Footer Bottom */
+
 .footer-bottom {
   background-color: #457426FA;
   font-size: 14px;
@@ -516,7 +514,6 @@ body {
   text-decoration: underline;
 }
 
-/* Responsive Tweaks */
 @media (max-width: 768px) {
   .footer-announcement,
   .footer-bottom .container-fluid {
@@ -736,7 +733,6 @@ body {
   object-fit: cover;
 }
 
-/* Default desktop positioning */
 .circle-img-1 {
   z-index: 3;
   position: absolute;
@@ -749,7 +745,7 @@ body {
   z-index: 2;
 }
 
-/* Mobile Responsive */
+
 @media (max-width: 991.98px) {
   .circle-img-1,
   .circle-img-2 {
